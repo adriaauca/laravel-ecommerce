@@ -1,0 +1,147 @@
+/* ----------- */
+/* -- FONTS -- */
+/* ----------- */
+@font-face { 
+    /* -> https://fonts.google.com/specimen/Work+Sans?preview.text=Para%20los%20fan%C3%A1ticos%20de%20hacer%20Running&preview.text_type=custom&vfonly=true#about*/
+    font-family: Worksans; 
+    src: url('/fonts/WorkSans-Italic-VariableFont_wght.ttf');
+} 
+
+/* ------------------- */
+/* -- GLOBAL STYLES -- */
+/* ------------------- */
+* {
+    font-family: Worksans;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+}
+
+#tools  a:hover {
+    background-color: #F5A623;
+    color: white;
+    transition: .3s ease;
+}
+
+.carousel a:hover {
+    background-color: #F5A623;
+    transition: .3s ease;
+}
+
+.carousel a {
+    transition: .3s ease;
+}
+
+h1 {
+    width: 100%;
+    padding: 1.5rem 0;
+    padding-bottom: 0;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    line-height: 1.25;
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+h4 {
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+footer {
+    background-color:#197419;
+    color:white;
+    margin-top: 4rem;
+}
+
+
+
+
+/* -------------------- */
+/* -- DEFINED STYLES -- */
+/* -------------------- */
+#tools {
+    font-size: 0.75rem;
+}
+
+.imgCarousel {
+    height: 680px;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.latestTea:hover {
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+    transition: .3s ease;
+}
+
+.latestTea {
+    transition: .3s ease;
+}
+
+.discoverWorkshops {
+    transition: .3s ease;
+}
+
+.discoverWorkshops:hover {
+    transition: .3s ease;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+}
+
+.moreInformation{
+    background-color: white;
+    color:black;
+}
+
+.moreInformation:hover{
+    background-color: white;
+    color:black;
+}
+
+.findUs {
+    transition: .3s ease;
+}
+
+.findUs:hover {
+    transition: .3s ease;
+    box-shadow: 0 1rem 8rem rgba(0,0,0,.175) !important;
+    opacity: 0.3;
+}
+
+#info {
+    font-size: 0.75rem;
+}
+
+/* ----------- */
+/* -- MEDIA -- */
+/* ----------- */
+@media all {
+    .navbar .nav-item .dropdown-menu{ display: none; }
+    .navbar .nav-item:hover .nav-link{ color: #F5A623;  }
+    .navbar .nav-item:hover .nav-link{ transition: .3s ease;  }
+    .navbar .nav-item .nav-link{ transition: .3s ease;  }
+    .navbar .nav-item:hover .dropdown-menu{ display: block; }
+    .navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
